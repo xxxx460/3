@@ -1,0 +1,21 @@
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+
+# 环境与密钥
+.env
+.env.local
+
+# 本地缓存与系统文件
+.DS_Store
+Thumbs.db
+
+# 压缩包 / 大文件（避免推送到 GitHub）
+*.zip
+*.tar.gz
+*.rar
+
+# 日志
+*.log
+npm-debug.log*
